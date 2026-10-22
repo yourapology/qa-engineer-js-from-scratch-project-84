@@ -1,0 +1,228 @@
+---
+test-cases:
+- summary: |
+    Успешный поиск товара по ключевому слову
+  status: pass
+
+- summary: |
+    Успешный поиск товара по категории
+  status: pass
+
+- summary: |
+    Успешный поиск товара по производителю
+  status: pass
+
+- summary: |
+    Успешный поиск товара по наличию
+  status: pass
+
+- summary: |
+    Отображение каталога товаров
+  status: pass
+
+- summary: |
+    Просмотр карточки товара
+  status: pass
+
+- summary: |
+    Успешное добавление товара в корзину
+  status: pass
+
+- summary: |
+    Просмотр содержимого корзины
+  status: pass
+
+- summary: |
+    Успешное удаление товара из корзины
+  status: pass
+
+- summary: |
+    Успешное оформление заказа
+  status: fail
+
+- summary: |
+    Успешное переключение языка интерфейса
+  status: pass
+
+- summary: |
+    Корретное отоброжения локализации на английском языке
+  status: pass
+
+- summary: |
+    Корретное отоброжения локализации на русском языке
+  status: fail
+
+- summary: |
+    Все страницы открываются только по HTTPS
+  status: pass
+
+- summary: |
+    Перенаправление с HTTP на HTTPS
+  status: pass
+
+- summary: |
+    Проверка SSL-сертификата сайта
+  status: pass
+
+- summary: |
+    Проверка сайта на XSS уязвимости
+  status: pass
+
+- summary: |
+    Просмотре корзины в другой ссесии с другого браузера
+  status: pass
+
+- summary: |
+    Время загрузки сайта на мобильном интернете
+  status: fail
+
+- summary: |
+    Оценка производительности через Lighthouse
+  status: fail
+
+- summary: |
+    Время отображения результатов поиска
+  status: pass
+
+- summary: |
+    Перехода из каталога на страницу товара
+  status: pass
+
+- summary: |
+    Отсутствие горизонтальной прокрутки на мобильном экране
+  status: pass
+
+- summary: |
+    Поворот экрана смартфона
+  status: pass
+
+- summary: |
+    Отображение каталога в браузере (Chrome)
+  status: pass
+
+- summary: |
+    Отображение каталога в браузере (Firefox)
+  status: pass
+
+- summary: |
+    Поиск и фильтрация в браузере (Chrome)
+  status: pass
+
+- summary: |
+    Поиск и фильтрация в браузере (Firefox)
+  status: pass
+
+- summary: |
+    Навигация без перезагрузки в браузере (Chrome)
+  status: pass
+
+- summary: |
+    Навигация без перезагрузки в браузере (Firefox)
+  status: pass
+
+- summary: |
+    Отсутствие ошибок в консоли браузера (Chrome)
+  status: fail
+
+- summary: |
+    Отсутствие ошибок в консоли браузера (Firefox)
+  status: fail
+
+- summary: |
+    Работа сайта при высокой нагрузке
+  status: fail
+
+- summary: |
+    Доступность сайта на смартфоне Android
+  status: pass
+
+- summary: |
+    Доступность сайта на iPhone
+  status: pass
+
+- summary: |
+    Доступ к сайту без VPN через домашний интернет
+  status: pass
+
+- summary: |
+    Доступ к сайту без VPN через мобильный интернет, оператор Т2
+  status: pass
+
+- summary: |
+    Загрузка всех ресурсов страницы без VPN
+  status: pass
+
+- summary: |
+    Автоматическое применение поиска после ввода слова без нажатия Enter
+  status: pass
+
+- summary: |
+    Обновление результатов поиска при изменении запроса
+  status: pass
+
+- summary: |
+    Возврат полного каталога после очистки строки поиска
+  status: pass
+
+- summary: |
+    Нажатие Enter в строке поиска не перезагружает страницу
+  status: pass
+
+- summary: |
+    Поиск по ключевому слову в нижнем регистре
+  status: pass
+
+- summary: |
+    Поиск по ключевому слову в верхнем регистре
+  status: pass
+
+- summary: |
+    Поиск по ключевому слову в смешанном регистре
+  status: pass
+
+- summary: |
+    Успешный поиск товара по всему каталогу
+  status: fail
+
+- summary: |
+    Уведомление после добавления товара в корзину из каталога
+  status: fail
+
+- summary: |
+    Уведомление после добавления товара в корзину со страницы товара
+  status: fail
+
+- summary: |
+    Сброс примененных фильтров
+  status: fail
+
+- summary: |
+    Сохранение номера страницы при возврате со страницы товара
+  status: pass
+
+- summary: |
+    Сохранение фильтра при возврате со страницы товара
+  status: fail
+
+- summary: |
+    Сохранение номера страницы при возврате из корзины
+  status: pass
+
+- summary: |
+    Сохранение фильтра при возврате из корзины
+  status: fail
+
+- summary: |
+    Отображение изображения товара в карточке каталога
+  status: pass
+
+- summary: |
+    Отображение изображения на странице товара
+  status: pass
+
+- summary: |
+    Появление окна подтверждения при очистке корзины
+  status: fail
+
+bugreports:
+  
