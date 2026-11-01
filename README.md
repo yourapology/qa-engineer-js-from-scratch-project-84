@@ -20,8 +20,8 @@
 
 | Прогон | Версия сайта | Тест-кейсы | Отчёт | Баг-репорты |
 |---|---|---|---|---|
-| Основной прогон | [<Первая версия>](https://products-store.hexlet.app/) | `test-cases.yaml` | `testing-report.yml` | `bug-reports.yml` |
-| Регресс | [<Вторая версия>](https://products-store-v2.hexlet.app/) | `regress-report.yml` | 
+| Основной прогон | [Первая версия](https://products-store.hexlet.app/) | `test-cases.yaml` | `testing-report.yml` | `bug-reports.yml` |
+| Регресс | [Вторая версия](https://products-store-v2.hexlet.app/) | `regress-report.yml` | `regress-report.yml` | `regress-report.yml` |
 
 ### Итоги
 
