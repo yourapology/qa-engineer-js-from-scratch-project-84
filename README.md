@@ -81,7 +81,7 @@ cd qa-engineer-js-from-scratch-project-84
 
 ### Нагрузочный тест
 
-Запуск из корня репозитория (папка `apache-jmeter-5.6.3` лежит рядом), 500 пользователей, разгон 2 мин, удержание 10 мин:
+Запуск из корня репозитория (папка `apache-jmeter-5.6.3` необходимо добавить), 500 пользователей, разгон 2 мин, удержание 10 мин:
 
 ```bash
 java -jar ..\apache-jmeter-5.6.3\bin\ApacheJMeter.jar -n -t load-test.jmx -Jthreads=500 -Jrampup=120 -Jduration=720 -Jsummariser.interval=30 -l logs\results-500-users.jtl -j logs\jmeter-500-users.log -e -o logs\report-500-users
