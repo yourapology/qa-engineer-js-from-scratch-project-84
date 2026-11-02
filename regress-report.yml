@@ -1,5 +1,5 @@
 ---
-testcases:
+test-cases:
   - summary: |
       Просмотр каталога товаров на главной странице
     status: pass
